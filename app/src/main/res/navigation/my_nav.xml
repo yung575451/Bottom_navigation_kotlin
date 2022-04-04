@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.hungphamcom.bottom_navigationv2_kotlin.Home"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/learn"
+        android:name="com.hungphamcom.bottom_navigationv2_kotlin.learn"
+        android:label="Learn"
+        tools:layout="@layout/fragment_learn" />
+    <fragment
+        android:id="@+id/shop"
+        android:name="com.hungphamcom.bottom_navigationv2_kotlin.shop"
+        android:label="Shop"
+        tools:layout="@layout/fragment_shop" />
+</navigation>
